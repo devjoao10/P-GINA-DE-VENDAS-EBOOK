@@ -1,282 +1,407 @@
 <!DOCTYPE html>
-<html lang="pt-BR" style="scroll-behavior: smooth;">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20 Truques Naturais para Horta | Raízes Livres</title>
-    <meta name="description" content="Descubra técnicas simples utilizadas por agricultores e jardineiros para melhorar o solo, fortalecer as plantas e aumentar a produtividade da sua horta natural.">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-    
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>20 Truques Naturais Que Fazem Qualquer Horta Produzir Muito Mais</title>
+  <meta name="description" content="Descubra 20 truques naturais para melhorar o solo, fortalecer as plantas, economizar água e transformar sua horta em uma máquina de produção." />
+  <meta name="theme-color" content="#2f6b3d" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Header Navigation -->
-    <header class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <i data-lucide="leaf" class="logo-icon"></i>
-                Raízes Livres
-            </div>
-            <a href="#oferta" class="nav-cta">Garantir Ebook</a>
+  <div class="announcement-bar">
+    <div class="container announcement-inner">
+      <span class="announcement-dot"></span>
+      <p>Ebook digital com acesso imediato • conteúdo prático • pagamento único</p>
+    </div>
+  </div>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a href="#topo" class="brand" aria-label="Raízes Livres - topo da página">
+        <img src="logo.png" alt="Logo Raízes Livres" class="brand-logo" />
+        <div class="brand-copy">
+          <strong>Raízes Livres</strong>
+          <span>Horticultura natural e produtividade</span>
         </div>
-    </header>
-    <!-- 1. Seção Hero -->
-    <section class="hero reveal">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <div class="badge">Ebook Digital Exclusivo</div>
-                <h1>20 Truques Naturais Que Transformam Qualquer Horta em Uma Máquina de Produção</h1>
-                <p>Descubra técnicas simples utilizadas por agricultores e jardineiros para melhorar o solo, fortalecer as plantas e aumentar a produtividade da sua horta.</p>
-                <a href="#oferta" class="cta-button primary-btn pulse-effect">
-                    <span>Quero Acessar o Ebook Agora</span>
-                    <i data-lucide="arrow-right"></i>
-                </a>
-                <div class="feature-tag">
-                    <i data-lucide="shield-check"></i>
-                    <span>Acesso imediato • Pagamento 100% Seguro</span>
-                </div>
-            </div>
-            
-            <div class="hero-visual">
-                <div class="mockup-container">
-                    <div class="book-pages"></div>
-                    <div class="book-cover">
-                        <i data-lucide="sprout" class="book-icon"></i>
-                        <h3>20 Truques Naturais</h3>
-                        <p class="subtitle">Para Horta Produtiva</p>
-                        <div class="author">Raízes Livres</div>
-                    </div>
-                </div>
-            </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#conteudo">Conteúdo</a>
+        <a href="#para-quem">Para quem é</a>
+        <a href="#faq">Perguntas</a>
+      </nav>
+
+      <a href="SEU-LINK-DE-CHECKOUT" class="btn btn-primary header-cta">Comprar agora</a>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#beneficios">Benefícios</a>
+      <a href="#conteudo">Conteúdo</a>
+      <a href="#para-quem">Para quem é</a>
+      <a href="#faq">Perguntas</a>
+      <a href="SEU-LINK-DE-CHECKOUT" class="btn btn-primary mobile-cta">Comprar agora</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-icon">🌿</span>
+            Ebook premium para quem quer colher mais com técnicas naturais
+          </div>
+
+          <h1>20 Truques Naturais Que Fazem Qualquer Horta Produzir Muito Mais</h1>
+
+          <p class="hero-description">
+            Descubra técnicas simples utilizadas por agricultores e jardineiros para melhorar o solo,
+            fortalecer as plantas, economizar água e aumentar a produtividade da horta sem depender de químicos caros.
+          </p>
+
+          <div class="hero-actions">
+            <a href="SEU-LINK-DE-CHECKOUT" class="btn btn-primary btn-large">Quero meu ebook agora</a>
+            <a href="#conteudo" class="btn btn-secondary btn-large">Ver o conteúdo</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="trust-item"><span>✓</span> Acesso imediato</div>
+            <div class="trust-item"><span>✓</span> Leitura no celular e PC</div>
+            <div class="trust-item"><span>✓</span> Conteúdo direto ao ponto</div>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card glass-card">
+              <strong>20</strong>
+              <span>truques naturais para aplicar na prática</span>
+            </article>
+            <article class="stat-card glass-card">
+              <strong>R$ 20</strong>
+              <span>investimento acessível para começar hoje</span>
+            </article>
+            <article class="stat-card glass-card">
+              <strong>100%</strong>
+              <span>foco em produtividade, solo e economia</span>
+            </article>
+          </div>
         </div>
+
+        <div class="hero-visual reveal">
+          <div class="visual-card">
+            <div class="orb orb-green"></div>
+            <div class="orb orb-gold"></div>
+
+            <div class="floating-badge badge-top-left glass-card">
+              <div class="badge-icon">🌱</div>
+              <div>
+                <strong>Técnicas naturais</strong>
+                <span>Mais resultado, menos desperdício</span>
+              </div>
+            </div>
+
+            <img src="ebook.png" alt="Capa do ebook 20 Truques Naturais" class="ebook-mockup" />
+
+            <div class="floating-badge price-badge glass-card">
+              <small>Oferta especial</small>
+              <strong>R$ 20</strong>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- 2. Seção Problema -->
-    <section class="section problem bg-light reveal">
-        <div class="container">
-            <div class="section-header center">
-                <h2>Você enfrenta alguma dessas dificuldades na sua horta?</h2>
-                <p>Ter uma horta em casa deveria ser relaxante, mas muitas vezes se torna uma fonte de frustração.</p>
-            </div>
-            
-            <div class="grid grid-4">
-                <div class="card problem-card">
-                    <div class="icon-wrapper warning">
-                        <i data-lucide="thermometer-sun"></i>
-                    </div>
-                    <h3>Solo Fraco</h3>
-                    <p>A terra resseca rápido e as plantas não encontram nutrientes.</p>
-                </div>
-                <div class="card problem-card">
-                    <div class="icon-wrapper warning">
-                        <i data-lucide="trending-down"></i>
-                    </div>
-                    <h3>Plantas que Não Crescem</h3>
-                    <p>Mudinhas que estagnam, sofrem com folhas amareladas.</p>
-                </div>
-                <div class="card problem-card">
-                    <div class="icon-wrapper warning">
-                        <i data-lucide="bug"></i>
-                    </div>
-                    <h3>Ataque de Pragas</h3>
-                    <p>Insetos e doenças destruindo seu trabalho e suas plantas.</p>
-                </div>
-                <div class="card problem-card">
-                    <div class="icon-wrapper warning">
-                        <i data-lucide="droplet-off"></i>
-                    </div>
-                    <h3>Desperdício de Água</h3>
-                    <p>Ter que regar o tempo todo porque o solo não retém a umidade.</p>
-                </div>
-            </div>
+
+    <section class="brands-proof reveal">
+      <div class="container proof-grid glass-card">
+        <div>
+          <strong>Produtividade</strong>
+          <span>Mais vigor para sua horta</span>
         </div>
+        <div>
+          <strong>Economia</strong>
+          <span>Menos gastos com soluções industrializadas</span>
+        </div>
+        <div>
+          <strong>Simplicidade</strong>
+          <span>Conteúdo claro, prático e aplicável</span>
+        </div>
+        <div>
+          <strong>Natural</strong>
+          <span>Estratégias sem química pesada</span>
+        </div>
+      </div>
     </section>
-    <!-- 3. Seção Solução -->
-    <section class="section solution reveal">
-        <div class="container solution-container grid grid-2">
-            <div class="solution-visual">
-                <div class="image-frame">
-                    <!-- Placeholder via Unsplash para alta conversão -->
-                    <img src="https://images.unsplash.com/photo-1592424001807-f659bc18dbd5?auto=format&fit=crop&q=80&w=800" alt="Horta abundante e saudável" class="solution-img rounded-shadow">
-                </div>
-            </div>
-            <div class="solution-content">
-                <h2>A Natureza Já Tem as Respostas. Você Só Precisa Delas.</h2>
-                <p>Não jogue dinheiro fora com adubos comerciais caros e fertilizantes perigosos. O segredo para uma colheita farta está em métodos naturais que respeitam a biologia das suas plantas e do seu solo.</p>
-                <div class="highlight-box">
-                    <i data-lucide="book-open" class="highlight-icon"></i>
-                    <p>Apresentando o e-book: <strong>Você vai aprender 20 truques práticos para transformar o espaço verde da sua casa.</strong></p>
-                </div>
-            </div>
+
+    <section class="section" id="beneficios">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow center-eyebrow">
+            <span class="eyebrow-icon">✨</span>
+            Por que esse ebook faz diferença
+          </div>
+          <h2>Uma página de leitura rápida, mas um efeito gigante na sua horta</h2>
+          <p>
+            O material foi pensado para quem quer sair da tentativa e erro e aplicar estratégias naturais
+            que ajudam a melhorar o cultivo de forma consistente.
+          </p>
         </div>
+
+        <div class="benefits-grid">
+          <article class="feature-card glass-card reveal">
+            <div class="feature-icon">🌿</div>
+            <h3>Solo mais fértil</h3>
+            <p>Aprenda formas naturais de enriquecer o solo e criar uma base mais viva para o crescimento das plantas.</p>
+          </article>
+
+          <article class="feature-card glass-card reveal">
+            <div class="feature-icon">💧</div>
+            <h3>Melhor uso da água</h3>
+            <p>Descubra ajustes simples que ajudam a reter umidade e evitar desperdício no cultivo.</p>
+          </article>
+
+          <article class="feature-card glass-card reveal">
+            <div class="feature-icon">🌱</div>
+            <h3>Plantas mais fortes</h3>
+            <p>Use truques que favorecem vigor, crescimento equilibrado e resposta mais saudável da horta.</p>
+          </article>
+
+          <article class="feature-card glass-card reveal">
+            <div class="feature-icon">💸</div>
+            <h3>Menos gastos</h3>
+            <p>Reduza a dependência de produtos caros aproveitando técnicas naturais e acessíveis.</p>
+          </article>
+        </div>
+      </div>
     </section>
-    <!-- 4. Seção O Que Você Vai Aprender -->
-    <section class="section learning bg-beige reveal">
-        <div class="container">
-            <div class="section-header center">
-                <h2>O Que Você Vai Aprender</h2>
-            </div>
-            
-            <div class="learning-list grid grid-3">
-                <div class="learning-item card">
-                    <i data-lucide="arrow-up-right" class="accent-icon"></i>
-                    <h4>Melhorar a fertilidade do solo naturalmente</h4>
-                </div>
-                <div class="learning-item card">
-                    <i data-lucide="microscope" class="accent-icon"></i>
-                    <h4>Estimular microrganismos benéficos</h4>
-                </div>
-                <div class="learning-item card">
-                    <i data-lucide="shield" class="accent-icon"></i>
-                    <h4>Fortalecer plantas contra doenças</h4>
-                </div>
-                <div class="learning-item card">
-                    <i data-lucide="cloud-rain" class="accent-icon"></i>
-                    <h4>Economizar água na irrigação</h4>
-                </div>
-                <div class="learning-item card">
-                    <i data-lucide="bug-off" class="accent-icon"></i>
-                    <h4>Proteger a horta totalmente natural</h4>
-                </div>
-            </div>
+
+    <section class="section alternate-section" id="conteudo">
+      <div class="container content-grid">
+        <div class="content-card premium-card reveal">
+          <div class="content-label">O que você vai aprender</div>
+          <h2>Um guia direto para quem quer colher mais sem complicação</h2>
+          <p>
+            Em vez de conteúdo genérico, você recebe um material feito para ser útil no mundo real.
+            A proposta é te mostrar caminhos simples que podem ser aplicados mesmo em hortas pequenas.
+          </p>
+
+          <ul class="check-list">
+            <li>Como melhorar a fertilidade do solo naturalmente.</li>
+            <li>Como fortalecer as plantas sem química agressiva.</li>
+            <li>Como economizar água com práticas inteligentes.</li>
+            <li>Como aproveitar melhor resíduos e recursos do dia a dia.</li>
+            <li>Como aumentar a produtividade em espaços reduzidos.</li>
+            <li>Como evitar erros comuns que atrasam a evolução da horta.</li>
+          </ul>
         </div>
+
+        <div class="content-card side-highlight reveal">
+          <div class="mini-quote glass-card">
+            <strong>Ideal para quem quer resultado rápido na prática</strong>
+            <p>Leitura leve, aplicação imediata e visual premium para valorizar ainda mais seu produto.</p>
+          </div>
+
+          <div class="mini-feature-list">
+            <article class="mini-feature glass-card">
+              <h3>Leitura prática</h3>
+              <p>Conteúdo pensado para ser consumido e aplicado sem enrolação.</p>
+            </article>
+
+            <article class="mini-feature glass-card">
+              <h3>Uso imediato</h3>
+              <p>As ideias podem ser adaptadas para a realidade da maioria das hortas domésticas.</p>
+            </article>
+
+            <article class="mini-feature glass-card">
+              <h3>Valor percebido</h3>
+              <p>Um material bonito, organizado e com posicionamento de produto premium acessível.</p>
+            </article>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- 5. Seção Conteúdo do Ebook -->
-    <section class="section chapters reveal">
-        <div class="container">
-            <div class="section-header center">
-                <h2>Conteúdo do Ebook</h2>
-            </div>
-            
-            <div class="chapters-grid grid grid-5">
-                <div class="chapter-card">
-                    <div class="chap-badge">Cap 1</div>
-                    <i data-lucide="mountain"></i>
-                    <h3>Fertilidade do Solo</h3>
-                </div>
-                <div class="chapter-card">
-                    <div class="chap-badge">Cap 2</div>
-                    <i data-lucide="growing-out"></i>
-                    <h3>Crescimento Saudável</h3>
-                </div>
-                <div class="chapter-card">
-                    <div class="chap-badge">Cap 3</div>
-                    <i data-lucide="cloud-rain"></i>
-                    <h3>Irrigação Inteligente</h3>
-                </div>
-                <div class="chapter-card">
-                    <div class="chap-badge">Cap 4</div>
-                    <i data-lucide="shield"></i>
-                    <h3>Proteção Natural</h3>
-                </div>
-                <div class="chapter-card">
-                    <div class="chap-badge">Cap 5</div>
-                    <i data-lucide="flower-2"></i>
-                    <h3>Técnicas de Produção</h3>
-                </div>
-            </div>
+
+    <section class="section" id="para-quem">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow center-eyebrow">
+            <span class="eyebrow-icon">🎯</span>
+            Para quem esse ebook foi feito
+          </div>
+          <h2>Perfeito para quem quer produtividade com autonomia</h2>
+          <p>
+            Não importa se você está começando agora ou já cultiva há algum tempo.
+            O foco é encurtar o caminho até uma horta mais forte e mais eficiente.
+          </p>
         </div>
+
+        <div class="audience-grid">
+          <article class="audience-card glass-card reveal">
+            <h3>Quem está começando</h3>
+            <p>Ideal para quem quer aprender com clareza e evitar erros logo no início do cultivo.</p>
+          </article>
+          <article class="audience-card glass-card reveal">
+            <h3>Quem já tentou de tudo</h3>
+            <p>Ótimo para quem quer parar de testar soluções aleatórias e seguir algo mais direcionado.</p>
+          </article>
+          <article class="audience-card glass-card reveal">
+            <h3>Quem busca economia</h3>
+            <p>Perfeito para reduzir gastos e usar recursos mais naturais e inteligentes na rotina.</p>
+          </article>
+        </div>
+      </div>
     </section>
-    <!-- 6. Seção Benefícios -->
-    <section class="section benefits bg-dark text-white reveal">
-        <div class="container">
-            <div class="section-header center">
-                <h2 class="text-white">Visualize a Sua Nova Realidade</h2>
-                <p class="text-white-80">Aqui estão os resultados para você.</p>
-            </div>
-            
-            <div class="grid grid-2 benefits-wrap">
-                <div class="benefit-box">
-                    <i data-lucide="shopping-basket"></i>
-                    <h4>Colheitas Abundantes</h4>
-                </div>
-                <div class="benefit-box">
-                    <i data-lucide="heart-pulse"></i>
-                    <h4>Mais Saúde sem Venenos</h4>
-                </div>
-                <div class="benefit-box">
-                    <i data-lucide="wallet"></i>
-                    <h4>Economia no Supermercado</h4>
-                </div>
-                <div class="benefit-box">
-                    <i data-lucide="flower"></i>
-                    <h4>O Hobby Terapêutico Perfeito</h4>
-                </div>
-            </div>
+
+    <section class="section testimonials-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow center-eyebrow">
+            <span class="eyebrow-icon">💬</span>
+            Percepção de valor
+          </div>
+          <h2>Esse tipo de material muda a forma como a pessoa cuida da horta</h2>
+          <p>
+            Depoimentos ilustrativos que ajudam a construir confiança e reforçar o benefício percebido do produto.
+          </p>
         </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card glass-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Gostei porque é o tipo de conteúdo que dá para ler e aplicar no mesmo dia. Muito objetivo.”</p>
+            <strong>Mariana</strong>
+            <span>Cultivadora doméstica</span>
+          </article>
+          <article class="testimonial-card glass-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“A proposta transmite clareza. Parece um material simples, mas com muita utilidade prática.”</p>
+            <strong>Carlos</strong>
+            <span>Jardinagem em casa</span>
+          </article>
+          <article class="testimonial-card glass-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Excelente para quem quer cultivar melhor sem depender de soluções caras e complicadas.”</p>
+            <strong>Patrícia</strong>
+            <span>Horta em pequenos espaços</span>
+          </article>
+        </div>
+      </div>
     </section>
-    <!-- 7. Seção Oferta -->
-    <section id="oferta" class="section offer bg-light reveal">
-        <div class="container">
-            <div class="offer-wrapper central block-center">
-                <div class="pricing-card main-pricing">
-                    <div class="pricing-header">
-                        <div class="pulse-badge">Disponível Hoje</div>
-                        <h3>E-book: 20 Truques Naturais</h3>
-                    </div>
-                    
-                    <div class="pricing-body">
-                        <div class="old-price">De: <span class="strike">R$ 49,90</span></div>
-                        <div class="new-price-label">Por Apenas:</div>
-                        <div class="price-display">
-                            <span class="currency">R$</span>
-                            <span class="amount">19</span>
-                            <span class="cents">,90</span>
-                        </div>
-                        <div class="access-info">
-                            <i data-lucide="zap"></i> Acesso Imediato Após a Compra
-                        </div>
-                        
-                        <a href="#" class="cta-button pulse-effect large-btn">
-                            <span>Comprar Ebook Agora</span>
-                            <i data-lucide="shopping-cart"></i>
-                        </a>
-                        
-                        <p class="payment-secure mt-2"><i data-lucide="lock" class="sm-icon"></i> Pagamento 100% seguro.</p>
-                    </div>
-                </div>
-            </div>
+
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow center-eyebrow">
+            <span class="eyebrow-icon">❓</span>
+            Perguntas frequentes
+          </div>
+          <h2>Tire suas dúvidas antes de comprar</h2>
+          <p>Essas respostas ajudam a remover objeções e deixam a decisão de compra muito mais fácil.</p>
         </div>
+
+        <div class="faq-list">
+          <article class="faq-item glass-card reveal active">
+            <button class="faq-question" type="button">
+              <span>Como vou receber o ebook?</span>
+              <span class="faq-symbol">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Após a confirmação do pagamento, o acesso ao material digital é liberado para leitura no celular, tablet ou computador.
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item glass-card reveal">
+            <button class="faq-question" type="button">
+              <span>Esse conteúdo serve para iniciantes?</span>
+              <span class="faq-symbol">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Sim. O ebook foi pensado para ser simples, claro e útil mesmo para quem ainda está começando a cuidar da própria horta.
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item glass-card reveal">
+            <button class="faq-question" type="button">
+              <span>Preciso ter muito espaço para aplicar as dicas?</span>
+              <span class="faq-symbol">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Não. Muitas estratégias podem ser adaptadas para vasos, quintais pequenos e hortas compactas.
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item glass-card reveal">
+            <button class="faq-question" type="button">
+              <span>O pagamento é único?</span>
+              <span class="faq-symbol">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Sim. Você faz apenas um pagamento e recebe acesso ao material digital.
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
-    <!-- 8. Seção Garantia -->
-    <section class="section guarantee reveal">
-        <div class="container">
-            <div class="guarantee-card grid grid-2 central block-center">
-                <div class="guarantee-icon-wrap center">
-                    <i data-lucide="shield-check" class="shield-lg"></i>
-                </div>
-                <div class="guarantee-content">
-                    <h2>Garantia Incondicional de 7 Dias</h2>
-                    <p>O <strong>Risco é Zero</strong>. Se por qualquer motivo não gostar do E-book, devolvemos 100% do seu dinheiro, sem problemas.</p>
-                </div>
+
+    <section class="section cta-section" id="comprar">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="cta-copy">
+            <div class="eyebrow cta-eyebrow">
+              <span class="eyebrow-icon">🚀</span>
+              Comece hoje mesmo
             </div>
+            <h2>Transforme sua horta com técnicas naturais que você pode aplicar agora</h2>
+            <p>
+              Em vez de continuar testando no escuro, tenha em mãos um material objetivo,
+              bonito e pensado para gerar mais produtividade com menos desperdício.
+            </p>
+          </div>
+
+          <div class="cta-panel glass-card">
+            <small>Acesso imediato ao ebook digital</small>
+            <div class="cta-price">R$ 20</div>
+            <a href="SEU-LINK-DE-CHECKOUT" class="btn btn-gold btn-large btn-full">Garantir meu acesso agora</a>
+            <ul class="cta-benefits">
+              <li>Pagamento único</li>
+              <li>Compra segura</li>
+              <li>Leitura imediata</li>
+            </ul>
+            <p class="cta-note">Pronto para usar na sua landing page com checkout externo.</p>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- 9. Seção CTA Final & Footer -->
-    <footer class="footer bg-darker">
-        <div class="container footer-container center">
-            <h2 class="text-white">Pronto para revitalizar sua horta?</h2>
-            
-            <a href="#oferta" class="cta-button pulse-effect mt-4">
-                <span>Quero Acessar o Ebook Agora</span>
-                <i data-lucide="arrow-up-circle"></i>
-            </a>
-            
-            <div class="footer-bottom mt-8">
-                <div class="logo text-white mb-2">
-                    <i data-lucide="leaf"></i> Raízes Livres
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Scripts -->
-    <script src="js/script.js"></script>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Raízes Livres. Todos os direitos reservados.</p>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <a href="SEU-LINK-DE-CHECKOUT" class="floating-cta" aria-label="Comprar ebook agora">
+    Comprar ebook
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>
